@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(0deg, rgba(102,26,150,1) 0%, rgba(155,174,255,1) 100%);
+    background-attachment: fixed;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 40%;
+    min-width: 250px;
+    min-height: 300px;
+    border-radius: 5px;
+    margin: 80px auto 10px auto;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logintitle {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.lab {
+    font-size: 18px;
+    font-weight: 430;
+}
+
+.inp {
+    font-size: 15px;
+    font-weight: 430;
+    width: 45%;
+}
+
+.LoginBtn {
+    width: 35%;
+    min-width: 90px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-left: 60%;
+    font-size: 15px;
+    font-weight: 450;
+    transition: 0.5s;
+}
+
+.LoginBtn:hover {
+    background-color: #c389f9;
+    color: #f0f0f0;
+    font-weight: 500;
+
+}
+
+#rememberme {
+    cursor: pointer;
+    margin: 0;
+}
+
+#l3 {
+    cursor: pointer;
+}
+
+#l1 {
+    margin-top: 12%;
+    margin-left: 5%;
+}
+
+#user {
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+#l2 {
+    margin-left: 25%;
+}
+
+#pass {
+    margin-left: 35%;
+    margin-bottom: 13%;
+
+}
